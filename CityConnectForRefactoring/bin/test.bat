@@ -1,0 +1,1 @@
+type .\input.txt | java com.ngzhian.CityConnect.CityConnect > o.txt && fc o.txt expected.txt && pause
